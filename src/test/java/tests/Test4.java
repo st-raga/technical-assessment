@@ -8,7 +8,7 @@ import base.TestBase;
 public class Test4 extends TestBase{
 
 	@Test
-	public void checkButtonsState() {
+	public void testButtonsState() {
 		Assert.assertTrue(mainPage.isButtonEnable(0), "First Button is not enable");
 		Assert.assertFalse(mainPage.isButtonEnable(1), "Second Button is not disable");
 	}
