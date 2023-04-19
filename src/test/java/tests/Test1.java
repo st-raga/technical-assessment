@@ -36,6 +36,7 @@ public class Test1 extends TestBase{
 		mainPage.signInButtonClick();
 		
 		Assert.assertEquals(mainPage.getEmailInputValue(), "");
+		Assert.assertEquals(mainPage.getPasswordInputValue(), "");
 	}
 	
 }
