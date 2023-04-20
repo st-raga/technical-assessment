@@ -114,4 +114,5 @@ buildNumber.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,eclipse,java
 
-.test-output
+#testNG output
+test-output/
