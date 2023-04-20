@@ -1,22 +1,16 @@
 # Technical Assessment
 
-This project was built using:
+This project uses Java, Selenium, TestNG, and Maven to implement a set of tests organized using the Page Object Model (POM).
 
-* Java
+## Project Structure
 
-* Selenium
+The project is structured as follows:
 
-* TestNG
+* `src/test/java/pages`: Contains the page objects and methods for each page, such as the QE-index page in this case.
 
-* Maven
+* `src/test/java/tests`: Contains the test classes.
 
-This project is organized following Page Object Model (POM):
-
-* src/test/java/pages -> contains each page (just QE-index in this case), and their elements and methods.
-
-* src/test/java/tests -> contains all tests classes.
-
-There is one test class for each Test of the challenge.
+Each test class implements one test of the challenge.
 
 ## What do you need to run the project?
 
