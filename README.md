@@ -57,12 +57,11 @@ $ git clone https://github.com/st-raga/technical-assessment.git
 
 5. Import the project as an existing Maven Project to Eclipse
 
-<<<<<<< HEAD
 6. Run testng.xml 
 
 * Open the testng.xml file in Eclipse
 * Right-click on the file and select Run As > TestNG Suite
-* This will execute all the tests defined in the testng.xml file.
+* This will execute all the tests defined in the testng.xml file using Chrome
 
 ### Option 2: Using Command Line
 
@@ -110,6 +109,5 @@ $ mvn clean compile
 $ mvn test -DsuiteXmlFile=testng.xml
 
 ```
-=======
-3. Run `testng.xml`: Right-click on `testng.xml` and select "Run As -> TestNG Suite" to execute all tests using Chrome.
->>>>>>> 2122b021a16ec1dde10d4504ab7531d7dacca27d
+
+   This will execute all the tests defined in the testng.xml file using Chrome
