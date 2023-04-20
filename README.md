@@ -14,26 +14,25 @@ Each test class implements one test of the challenge.
 
 ## What do you need to run the project?
 
-### Option 1: Using an IDE (Eclipse)
+### Option 1: Using an IDE
 
 1. Java Software Development Kit (SDK)
 
-   You can download and install it from: https://www.oracle.com/java/technologies/downloads/ 
-
-   Check if it was installed correctly opening a command-line interface and typing:
+* You can download and install it from: https://www.oracle.com/java/technologies/downloads/ 
+* Check if it was installed correctly opening a command-line interface and typing:
 
 ```
 $ java --version
-
 ```
 
-2. An IDE such as Eclipse, 
+2. An IDE such as Eclipse
 
-   You can download and install it from: https://www.eclipse.org/downloads/
+* You can download and install it from: https://www.eclipse.org/downloads/
+* Choose the "Eclipse IDE for Java Developers" option.
 
-   Choose the "Eclipse IDE for Java Developers" option.
+3. TestNG for Eclipse
 
-3. TestNG for Eclipse. To install it:
+   To install it:
 
 * Open Eclipse.
 * Go to Help -> Eclipse Marketplace on the menu bar.
@@ -46,7 +45,6 @@ $ java --version
 
 ```
 $ git clone https://github.com/st-raga/technical-assessment.git
-
 ```
 
 5. Import the project as an existing Maven Project to Eclipse
@@ -61,47 +59,43 @@ $ git clone https://github.com/st-raga/technical-assessment.git
 
 1. Java Software Development Kit (SDK)
 
-   You can download and install it from: https://www.oracle.com/java/technologies/downloads/ 
+* You can download and install it from: https://www.oracle.com/java/technologies/downloads/ 
+* Check if it was installed correctly opening a command-line interface and typing:
 
-   Check if it was installed correctly opening a command-line interface and typing:
+```
+$ java --version
+```
 
 2. Maven
 
-   You can download and install it from: https://maven.apache.org/download.cgi
-
-   Check if it was installed correctly by opening a command-line interface and typing:
+* You can download and install it from: https://maven.apache.org/download.cgi
+* Check if it was installed correctly by opening a command-line interface and typing:
 
 ```
 $ mvn --version
-
 ```
 
 3. Clone the project from GitHub:
 
 ```
 $ git clone https://github.com/st-raga/technical-assessment.git
-
 ```
 
 4. Navigate to the project directory
 
 ```
 $ cd technical-assessment
-
 ```
 
 5. Compile the project 
 
 ```
 $ mvn clean compile
-
 ```
 
 6. Run the following command to execute the testng.xml file:
 
 ```
 $ mvn test -DsuiteXmlFile=testng.xml
-
 ```
-
-   This will execute all the tests defined in the testng.xml file using Chrome
+* This will execute all the tests defined in the testng.xml file using Chrome
