@@ -1,6 +1,6 @@
 # Technical Assessment
 
-This project uses Java, Selenium, TestNG, and Maven to implement a set of tests organized using the Page Object Model (POM).
+This project uses Java, Selenium, TestNG, and Maven to implement a set of tests, organized using the Page Object Model (POM).
 
 ## Project Structure
 
