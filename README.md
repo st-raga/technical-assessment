@@ -1,54 +1,52 @@
 # Technical Assessment
 
-This project was built using:
+This project uses Java, Selenium, TestNG, and Maven to implement a set of tests organized using the Page Object Model (POM).
 
-* Java
+## Project Structure
 
-* Selenium
+The project is structured as follows:
 
-* TestNG
+* `src/test/java/pages`: Contains the page objects and methods for each page, such as the QE-index page in this case.
 
-* Maven
+* `src/test/java/tests`: Contains the test classes.
 
-This project is organized following Page Object Model (POM):
+Each test class implements one test of the challenge.
 
-* src/test/java/pages -> contains each page (just QE-index in this case), and their elements and methods.
+## Requirements
 
-* src/test/java/tests -> contains all tests classes.
+To run the project, you need the following software:
 
-There is one test class for each Test of the challenge.
-
-## What do you need to run the project?
-
-1.  Java Software Development Kit (SDK)
-You can download and install it from: https://www.oracle.com/java/technologies/downloads/ 
-Check if it was installed correctly opening a command-line interface and typing:
+1. Java Software Development Kit (SDK): You can download it from https://www.oracle.com/java/technologies/downloads/. Verify that it is installed correctly by opening a command-line interface and typing:
 
 ```
 $ java --version
 
 ```
 
-2. An IDE, for instance Eclipse
-You can download and install it from: https://www.eclipse.org/downloads/ 
-Select the first option: Eclipse IDE for Java Developers 
+2. An IDE such as Eclipse, which you can download from https://www.eclipse.org/downloads/. Choose the "Eclipse IDE for Java Developers" option.
 
-3. Install TestNG within Eclipse
-Open Eclipse
-On the menu bar, go to: Help -> Eclipse Marketplace
-Search for testNG
-Select TestNG for Eclipse
-Click on install 
-Confirm and wait for installation 
-Restart Eclipse
+3. TestNG for Eclipse. To install it:
 
-4. Clone de project 
+* Open Eclipse.
+* Go to Help -> Eclipse Marketplace on the menu bar.
+* Search for "TestNG".
+* Select "TestNG for Eclipse".
+* Click "Install", confirm, and wait for installation to complete.
+* Restart Eclipse.
+
+## Getting Started
+
+To get started with the project, follow these steps:
+
+1. Clone the project from GitHub:
+
 ```
 $ git clone https://github.com/st-raga/technical-assessment.git
 
 ```
 
-5. Import the project as an existing Maven Project to Eclipse
+2. Import the project as an existing Maven project in Eclipse.
 
-6. Run testng.xml 
-Right click on testng.xml and select Run as a TestNG Suite to execute all tests.
+3. Run `testng.xml`: Right-click on `testng.xml` and select "Run As -> TestNG Suite" to execute all tests.
+
+That's it! You should now be able to run and modify the tests according to your needs.
