@@ -47,4 +47,4 @@ $ git clone https://github.com/st-raga/technical-assessment.git
 
 2. Import the project as an existing Maven project in Eclipse.
 
-3. Run `testng.xml`: Right-click on `testng.xml` and select "Run As -> TestNG Suite" to execute all tests.
+3. Run `testng.xml`: Right-click on `testng.xml` and select "Run As -> TestNG Suite" to execute all tests using Chrome.
