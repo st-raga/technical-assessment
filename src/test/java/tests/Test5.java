@@ -15,7 +15,7 @@ public class Test5 extends TestBase {
 		mainPage.clickRandomButton();
 		Assert.assertTrue(mainPage.isTest5AlertMessageDisplayed(), "Alert is not displayed");
 		String actualAlertMessage = mainPage.getTest5AlertMessage();
-		Assert.assertEquals(actualAlertMessage, expectedAlertMessage);
+		Assert.assertEquals(actualAlertMessage, expectedAlertMessage, "Message in alert is not right");
 		Assert.assertFalse(mainPage.isTest5ButtonEnable(), "Button 5 is not disable");
 	}
 	

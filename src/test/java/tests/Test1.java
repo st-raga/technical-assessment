@@ -20,10 +20,10 @@ public class Test1 extends TestBase{
 		String myPassword = "password123";
 		
 		mainPage.setEmailInputValue(myEmail);
-		Assert.assertEquals(mainPage.getEmailInputValue(), myEmail);
+		Assert.assertEquals(mainPage.getEmailInputValue(), myEmail, "Text in input email does not match with the one entered");
 		
 		mainPage.setPasswordInputValue(myPassword);
-		Assert.assertEquals(mainPage.getPasswordInputValue(), myPassword);
+		Assert.assertEquals(mainPage.getPasswordInputValue(), myPassword, "Text in input password does not match with the one entered");
 	}
 
 	@Test
@@ -35,8 +35,8 @@ public class Test1 extends TestBase{
 		mainPage.setPasswordInputValue(myPassword);
 		mainPage.signInButtonClick();
 		
-		Assert.assertEquals(mainPage.getEmailInputValue(), "");
-		Assert.assertEquals(mainPage.getPasswordInputValue(), "");
+		Assert.assertEquals(mainPage.getEmailInputValue(), "", "Input email should be empty");
+		Assert.assertEquals(mainPage.getPasswordInputValue(), "", "Input password should be empty");
 	}
 	
 }

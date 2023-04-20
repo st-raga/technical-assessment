@@ -11,7 +11,7 @@ public class Test6 extends TestBase {
 	public void testTableCellValue() {
 		String expectedCellValue = "Ventosanzap";
 		String actualCellValue = mainPage.getCellValue(2, 2);
-		Assert.assertEquals(actualCellValue, expectedCellValue);
+		Assert.assertEquals(actualCellValue, expectedCellValue, "Value in cell is not right");
 	}
 	
 }
